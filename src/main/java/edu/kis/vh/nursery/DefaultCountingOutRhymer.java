@@ -4,9 +4,9 @@ public class DefaultCountingOutRhymer {
 
     private static final int ERROR = -1;
 
-	private static final int NUMBERS_CAPACITY = 11;
+    private static final int NUMBERS_CAPACITY = 11;
 
-	private int[] numbers = new int[12]; 
+    private int[] numbers = new int[NUMBERS_CAPACITY + 1]; 
     
     public int total = ERROR;
 
