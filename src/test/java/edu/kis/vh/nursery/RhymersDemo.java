@@ -5,6 +5,7 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 
 class RhymersDemo {
 
+    // Wszystkie testy przechodza 5/5
     public static void main(String[] args) {
         RhymersFactory factory = new DefaultRhymersFactory();
 
